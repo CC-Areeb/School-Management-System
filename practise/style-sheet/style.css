@@ -1,0 +1,148 @@
+body > div.main-heading{
+	overflow: hidden;
+	font-size: 80px;
+	color: darkcyan;
+	background: whitesmoke;
+	text-align: center;
+}
+
+footer.main-footer > div.footer-container > p{
+ 	color: gray;
+ 	font-size: 20px;
+}
+
+footer.main-footer > div.footer-container{
+	overflow: hidden;
+	background: Azure;
+	margin-top: 455px;
+}
+
+div.options{
+	margin-top: 20px;	
+}
+
+div.options > a{
+	text-decoration: none;
+	margin: 5px;
+}
+
+div.options > a{
+	padding: 10px 30px;
+	color: floralwhite;
+	font-size: 25px;
+}
+
+div.options > a#student{
+	background-color: ForestGreen;
+}
+
+div.options > a#teacher{
+	background-color: DarkSlateGray;
+}
+
+div.options > a#admin{
+	background-color: DarkSlateBlue;
+}
+
+
+div.options > a#no-account{
+	background-color: DodgerBlue;
+}
+
+div.options > label{
+	font-size: 30px;
+}
+
+div.options, div.admin-form, div.sign-up, div.student-form, div.teacher-form{
+	text-align: center;
+	font-size: 30px;
+}
+div.admin-form > form > input#admin-password, input#admin-email{
+	padding: 10px 100px;
+	font-size: 30px;
+}
+
+div.admin-form > form > input#admin-login-btn{
+	border: none;
+	background: ForestGreen;
+	color: whitesmoke;
+	padding: 10px 30px;
+	font-size: 30px;
+}
+
+div.admin-form > form > a#admin-back-to-home-btn{
+	text-decoration: none;
+	background: royalblue;
+	padding: 10px 30px;
+	color: whitesmoke;
+
+}
+
+div.sign-up > form > input#first-name, input#last-name, input#register-email, input#register-password, input#register-confirm-password{
+	padding: 10px 100px;
+	font-size: 30px;
+}
+
+div.sign-up > form > input#sign-up-form-btn{
+	border: none;
+	background: ForestGreen;
+	color: whitesmoke;
+	padding: 10px 30px;
+	font-size: 30px;
+}
+
+div.teacher-form > form > input#teacher-password, input#teacher-email{
+	padding: 10px 100px;
+	font-size: 30px;
+}
+
+div.teacher-form > form > input#teacher-login-btn{
+	border: none;
+	background: ForestGreen;
+	color: whitesmoke;
+	padding: 10px 30px;
+	font-size: 30px;
+}
+
+div.teacher-form > form > a#teacher-back-to-home-btn{
+	text-decoration: none;
+	background: royalblue;
+	padding: 10px 30px;
+	color: whitesmoke;
+
+}
+
+div.student-form > form > input#student-password, input#student-email{
+	padding: 10px 100px;
+	font-size: 30px;
+}
+
+div.student-form > form > input#student-login-btn{
+	border: none;
+	background: ForestGreen;
+	color: whitesmoke;
+	padding: 10px 30px;
+	font-size: 30px;
+}
+
+div.student-form > form > a#student-back-to-home{
+	text-decoration: none;
+	background: royalblue;
+	padding: 10px 30px;
+	color: whitesmoke;
+
+}
+
+div.sign-up > form > a#register-back-to-home-btn{
+	text-decoration: none;
+	background: royalblue;
+	padding: 10px 30px;
+	color: whitesmoke;
+}
+
+body > div.display-page-container > a#display-back-to-home-btn{
+	text-decoration: none;
+	background: royalblue;
+	padding: 10px 30px;
+	color: whitesmoke;
+}
